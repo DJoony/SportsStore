@@ -179,6 +179,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Binders\CartModelBinder.cs" />
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -254,6 +255,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\ProductSummary.cshtml" />
     <Content Include="Views\Nav\Menu.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\Summary.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
